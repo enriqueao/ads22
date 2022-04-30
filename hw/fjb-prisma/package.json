@@ -1,0 +1,27 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@prisma/client": "^3.12.0",
+    "apollo-server": "^3.6.7",
+    "class-validator": "^0.13.2",
+    "graphql": "^16.4.0",
+    "graphql-scalars": "^1.17.0",
+    "prisma": "^3.12.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.27",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

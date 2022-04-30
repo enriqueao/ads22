@@ -1,0 +1,70 @@
+d_codigo|d_asenta|d_tipo_asenta|D_mnpio|d_estado|d_ciudad|d_CP|c_estado|c_oficina|c_tipo_asenta|c_mnpio|id_asenta_cpcons|d_zona|c_cve_ciudad|c_CP
+20000|Aguascalientes Centro|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0001|Urbano|01|
+20010|Colinas del Rio|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0005|Urbano|01|
+20010|Olivares Santana|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0006|Urbano|01|
+20010|Las Brisas|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0007|Urbano|01|
+20010|Ramon Romo Franco|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0008|Urbano|01|
+20010|San Cayetano|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0009|Urbano|01|
+20016|Colinas de San Ignacio|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0010|Urbano|01|
+20016|La Fundici�n|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0011|Urbano|01|
+20016|Fundici�n II|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0012|Urbano|01|
+20016|Los Sauces|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0013|Urbano|01|
+20018|L�nea de Fuego|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0014|Urbano|01|
+20020|Buenos Aires|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0016|Urbano|01|
+20020|Circunvalaci�n Norte|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0018|Urbano|01|
+20020|Las Arboledas|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0019|Urbano|01|
+20020|Villas de San Francisco|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0020|Urbano|01|
+20029|Villas de La Universidad|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0021|Urbano|01|
+20030|El Sol|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0022|Urbano|01|
+20030|Gremial|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0023|Urbano|01|
+20030|Industrial|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0024|Urbano|01|
+20040|Altavista|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0026|Urbano|01|
+20040|Curtidores|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0027|Urbano|01|
+20040|La Concordia|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0029|Urbano|01|
+20040|Miravalle|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0030|Urbano|01|
+20040|Panorama|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0031|Urbano|01|
+20040|Residencial Guadalupe|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0367|Urbano|01|
+20049|Colinas del Poniente|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0036|Urbano|01|
+20050|Bugambilias|Condominio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|10|001|0037|Urbano|01|
+20050|Del Carmen|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0038|Urbano|01|
+20050|La Fe|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0039|Urbano|01|
+20050|M�xico|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0040|Urbano|01|
+20050|Primavera|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0041|Urbano|01|
+20050|San Pablo|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0042|Urbano|01|
+20059|Guadalupe|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0043|Urbano|01|
+20059|Heliodoro Garcia|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0044|Urbano|01|
+20060|G�mez|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0045|Urbano|01|
+20060|Moderno|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0046|Urbano|01|
+20064|Valle del Rio San Pedro|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0048|Urbano|01|
+20070|Guadalupe Posada|Unidad habitacional|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|31|001|0049|Urbano|01|
+20070|San Marcos|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0050|Urbano|01|
+20070|San Marcos|Barrio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|02|001|0051|Urbano|01|
+20078|San Marcos|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0052|Urbano|01|
+20080|Modelo|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0054|Urbano|01|
+20080|Residencial del Valle I|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0055|Urbano|01|
+20089|Residencial del Valle II|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0053|Urbano|01|
+20100|La Herradura|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0057|Urbano|01|
+20100|Club Campestre|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0058|Urbano|01|
+20100|Jardines del Campestre|Condominio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|10|001|0061|Urbano|01|
+20100|Los Vergeles|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0062|Urbano|01|
+20100|Ciudad Universitaria|Equipamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|17|001|0426|Urbano|01|
+20100|Rancho San Antonio|Condominio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|10|001|1284|Urbano|01|
+20110|Talamantes Ponce|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0064|Urbano|01|
+20110|Granjas del Campestre|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0065|Urbano|01|
+20110|Puerto las Hadas|Condominio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|10|001|0066|Urbano|01|
+20110|Valle del Campestre|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0067|Urbano|01|
+20110|Villas de Montenegro|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0068|Urbano|01|
+20110|Las Cavas|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|1058|Urbano|01|
+20110|La Enramada|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|1408|Urbano|01|
+20115|Trojes de Oriente|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0069|Urbano|01|
+20115|Valle de las Trojes|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0072|Urbano|01|
+20115|Villas de San Nicol�s|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0073|Urbano|01|
+20115|San Telmo|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0347|Urbano|01|
+20115|La Paloma|Condominio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|10|001|1075|Urbano|01|
+20115|Barrio de Santiago|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|1370|Urbano|01|
+20115|Villa de las Trojes|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|1383|Urbano|01|
+20115|Valle de Santa Teresa|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|1409|Urbano|01|
+20116|La Troje|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0074|Urbano|01|
+20116|Trojes de Alonso|Colonia|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|09|001|0075|Urbano|01|
+20116|San Telmo Residencial|Fraccionamiento|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|21|001|0348|Urbano|01|
+20116|Santa Fe|Condominio|Aguascalientes|Aguascalientes|Aguascalientes|20001|01|20001|10|001|1380|Urbano|01|
