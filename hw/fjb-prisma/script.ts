@@ -8,6 +8,10 @@ async function main() {
   const allUsers = await prisma.user.findMany({
     include: { posts: true },
   })
+
+  const allPosts = await prisma.post.findMany({
+    include: { posts: true}, 
+  })
   // use `console.dir` to print nested objects
   console.dir(allUsers, { depth: null })
 }

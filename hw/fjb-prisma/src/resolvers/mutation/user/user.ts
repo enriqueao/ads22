@@ -11,6 +11,7 @@ import {
 import { User } from '../../../db/entities'
 import { Context } from '../../../config/context'
 
+
 @InputType()
 class UserCreateInput {
     @Field()
@@ -36,4 +37,5 @@ export class UserMutation {
             }
         })
     }
+    
 }

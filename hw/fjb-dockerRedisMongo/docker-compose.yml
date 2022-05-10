@@ -1,0 +1,66 @@
+     version: '3.5' 
+     
+       services:
+         my-ui:
+           container_name: my-ui
+           build: ./my-ui
+           ports:
+             - "80:80"
+           depends_on:
+             - my-api
+           networks:
+             - test-network
+
+         my-api:
+           container_name: my-api
+           restart: always
+           build:
+             context: my-api
+             dockerfile: Dockerfile
+           ports:
+             - "8080:8080"
+           #command: mvn clean spring-boot:run -Dspring-boot.run.profiles=docker
+           depends_on:
+             - rabbitmq
+             - mp-redis
+           networks:
+             - test-network
+
+         rabbitmq:
+           container_name: rabbitmq
+           image: rabbitmq:management
+           ports:
+             - "5672:5672"
+             - "15672:15672"
+           restart: always
+           networks:
+             - test-network
+
+         mp-redis:
+           container_name: mp-redis
+           image: redis:5
+           ports:
+             - "6379:6379"
+           restart: always
+           networks:
+             - test-network
+
+         mp-mongodb:
+           container_name: mp-mongodb
+           image: mongo:3.6
+           restart: always
+           environment:
+             MONGO_DATA_DIR: /data/db
+             MONGO_LOG_DIR: /dev/null
+           volumes:
+             - mongo-data:/data/db
+           ports:
+             - "27017:27017"
+           command: mongod --smallfiles --logpath=/dev/null # --quiet
+           networks:
+             - test-network
+
+       volumes:
+         mongo-data:
+       networks:
+         test-network:
