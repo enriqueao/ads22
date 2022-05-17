@@ -1,0 +1,26 @@
+[
+  {
+    '$match': {
+      'cp': '76246'
+    }
+  }, {
+    '$group': {
+      '_id': '$cp', 
+      'colonias': {
+        '$addToSet': '$asentamiento'
+      }, 
+      'totalColonias': {
+        '$sum': 1
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'totalColonias': 1
+    }
+  }
+]
+
+[{
+  "totalColonias": 55
+}]

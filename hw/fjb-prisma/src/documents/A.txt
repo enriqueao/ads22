@@ -1,0 +1,36 @@
+[
+  {
+    '$match': {
+      'cp': '76121'
+    }
+  }, {
+    '$group': {
+      '_id': '$cp', 
+      'colonias': {
+        '$push': '$asentamiento'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'colonias': 1
+    }
+  }
+]
+
+[{
+  "colonias": [
+    "Las Am�ricas",
+    "Las Am�ricas San Pablo",
+    "San Pablo IV (INFONAVIT)",
+    "Conquistadores",
+    "San Pablo III (INFONAVIT)",
+    "Movimiento Obrero",
+    "Tlanese",
+    "Altos de San Pablo",
+    "Felipe �ngeles",
+    "Puesta del Sol",
+    "La Esperanza",
+    "Nueva Esperanza"
+  ]
+}]

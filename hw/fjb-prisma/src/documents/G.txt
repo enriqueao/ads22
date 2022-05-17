@@ -1,0 +1,62 @@
+[
+  {
+    '$match': {
+      'ciudad': {
+        '$nin': [
+          'Ciudad de M\ufffdxico'
+        ]
+      }, 
+      'estado': {
+        '$nin': [
+          'Ciudad de M\ufffdxico'
+        ]
+      }
+    }
+  }, {
+    '$group': {
+      '_id': null, 
+      'cps': {
+        '$addToSet': '$cp'
+      }
+    }
+  }, {
+    '$unwind': {
+      'path': '$cps', 
+      'includeArrayIndex': 'ArrayIndex', 
+      'preserveNullAndEmptyArrays': true
+    }
+  }, {
+    '$sort': {
+      'cps': 1
+    }
+  }, {
+    '$limit': 10
+  }, {
+    '$group': {
+      '_id': 'cps', 
+      'codigosPostales': {
+        '$push': '$cps'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'codigosPostales': 1
+    }
+  }
+]
+
+[{
+  "codigosPostales": [
+    "20000",
+    "20010",
+    "20016",
+    "20018",
+    "20020",
+    "20029",
+    "20030",
+    "20040",
+    "20049",
+    "20050"
+  ]
+}]

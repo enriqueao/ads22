@@ -1,0 +1,321 @@
+[{
+  "total": 12,
+  "cp": "76121",
+  "colonias": [
+    {
+      "nombre": "Las Am�ricas",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Las Am�ricas San Pablo",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "San Pablo IV (INFONAVIT)",
+      "tipo": "Unidad habitacional"
+    },
+    {
+      "nombre": "Conquistadores",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "San Pablo III (INFONAVIT)",
+      "tipo": "Unidad habitacional"
+    },
+    {
+      "nombre": "Movimiento Obrero",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Tlanese",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Altos de San Pablo",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Felipe �ngeles",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Puesta del Sol",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "La Esperanza",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Nueva Esperanza",
+      "tipo": "Colonia"
+    }
+  ],
+  "estado": "Quer�taro",
+  "ciudad": "Santiago de Quer�taro",
+  "municipio": "Quer�taro"
+},{
+  "total": 7,
+  "cp": "76000",
+  "colonias": [
+    {
+      "nombre": "Centro",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "San Jos� Inn",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "La Cruz",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Rinc�n de San Andr�s",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Mariano Escobedo",
+      "tipo": "Unidad habitacional"
+    },
+    {
+      "nombre": "Vicente Guerrero",
+      "tipo": "Unidad habitacional"
+    },
+    {
+      "nombre": "Rinconada de Morelos",
+      "tipo": "Unidad habitacional"
+    }
+  ],
+  "estado": "Quer�taro",
+  "ciudad": "Santiago de Quer�taro",
+  "municipio": "Quer�taro"
+},{
+  "total": 55,
+  "cp": "76246",
+  "colonias": [
+    {
+      "nombre": "Parque Tecnol�gico Innovaci�n Quer�taro",
+      "tipo": "Zona industrial"
+    },
+    {
+      "nombre": "Colinas de la Piedad",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Real Solare",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Zen House II",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Zen House",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Bosque de los Encinos",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Villa Catania",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "La Ca�ada",
+      "tipo": "Ejido"
+    },
+    {
+      "nombre": "Ciudad Maderas",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Piamonte",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Provenza Residencial",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Adara Lifestyle",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Mallorca Residence",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Pirineos",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Fuji",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Los Alpes",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Himalaya",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Palmar",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Enramada",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Los Andes",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Los Volcanes",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Capital Sur",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Parque Industrial FINSA Quer�taro",
+      "tipo": "Zona industrial"
+    },
+    {
+      "nombre": "Segundo Barrio de Dolores",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Zen Life Residencial II",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Lucepolis",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Rimachi",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Zen Life Residencial I",
+      "tipo": "Condominio"
+    },
+    {
+      "nombre": "Cumbres de Con�n",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Magadi Residencial",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Melissani Residencial",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Mascardi Residencial",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Euro Business (Parque Industrial)",
+      "tipo": "Zona industrial"
+    },
+    {
+      "nombre": "Alleza Mirador",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Sendas Residencial",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "General L�zaro C�rdenas (El Colorado)",
+      "tipo": "Pueblo"
+    },
+    {
+      "nombre": "Parque Industrial el Marqu�s",
+      "tipo": "Zona industrial"
+    },
+    {
+      "nombre": "Parque Industrial Bernardo Quintana",
+      "tipo": "Zona industrial"
+    },
+    {
+      "nombre": "El Carmen",
+      "tipo": "Pueblo"
+    },
+    {
+      "nombre": "La Piedad (San Miguel Colorado)",
+      "tipo": "Pueblo"
+    },
+    {
+      "nombre": "Del Parque Residencial",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "San Isidro Miranda",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Cumbres de Con�n Tercera Secci�n",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "El Mirador",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Parque industrial la Noria",
+      "tipo": "Zona industrial"
+    },
+    {
+      "nombre": "Villas de San Jos� (Ampliaci�n la Piedad)",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Villas la Piedad",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Colorilandia",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "El Rosario",
+      "tipo": "Pueblo"
+    },
+    {
+      "nombre": "El Durazno",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "El Organal",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Loma de la Cruz",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "San Cristobal (El Colorado)",
+      "tipo": "Colonia"
+    },
+    {
+      "nombre": "Rinconada del Pedregal",
+      "tipo": "Fraccionamiento"
+    },
+    {
+      "nombre": "Rincones del Marques",
+      "tipo": "Fraccionamiento"
+    }
+  ],
+  "estado": "Quer�taro",
+  "ciudad": "",
+  "municipio": "El Marqu�s"
+}]

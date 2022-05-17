@@ -1,0 +1,38 @@
+[
+  {
+    '$match': {
+      'cp': '83000'
+    }
+  }, {
+    '$group': {
+      '_id': '$cp', 
+      'municipio': {
+        '$push': '$municipio'
+      }, 
+      'estado': {
+        '$push': '$estado'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'cp': '$_id', 
+      'municipio': {
+        '$arrayElemAt': [
+          '$municipio', 0
+        ]
+      }, 
+      'estado': {
+        '$arrayElemAt': [
+          '$estado', 0
+        ]
+      }
+    }
+  }
+]
+
+[{
+  "cp": "83000",
+  "municipio": "Hermosillo",
+  "estado": "Sonora"
+}]
