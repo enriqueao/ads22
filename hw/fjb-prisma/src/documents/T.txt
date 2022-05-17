@@ -1,0 +1,26 @@
+[
+  {
+    '$sort': {
+      'amount': -1
+    }
+  }, {
+    '$group': {
+      '_id': null, 
+      'usuario': {
+        '$first': '$user_id'
+      }, 
+      'ordenMasAlta': {
+        '$first': '$amount'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0
+    }
+  }
+]
+
+[{
+  "usuario": "clidgettlp",
+  "ordenMasAlta": 9998.76
+}]

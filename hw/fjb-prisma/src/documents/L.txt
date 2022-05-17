@@ -1,0 +1,27 @@
+[
+  {
+    '$match': {
+      'status': 'completed'
+    }
+  }, {
+    '$group': {
+      '_id': '$status', 
+      'montoPromedio': {
+        '$avg': '$amount'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'montoPromedio': {
+        '$trunc': [
+          '$montoPromedio', 2
+        ]
+      }
+    }
+  }
+]
+
+[{
+  "montoPromedio": 5078.69
+}]

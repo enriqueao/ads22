@@ -1,0 +1,23 @@
+[
+  {
+    '$match': {
+      'status': 'cancelled'
+    }
+  }, {
+    '$group': {
+      '_id': '$status', 
+      'montoPromedio': {
+        '$avg': '$amount'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'montoPromedio': 1
+    }
+  }
+]
+
+[{
+  "montoPromedio": 5013.391802030457
+}]

@@ -1,0 +1,23 @@
+[
+  {
+    '$group': {
+      '_id': null, 
+      'amountPromedio': {
+        '$avg': '$amount'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'amountPromedio': {
+        '$trunc': [
+          '$amountPromedio', 2
+        ]
+      }
+    }
+  }
+]
+
+[{
+  "amountPromedio": 5012.4
+}]

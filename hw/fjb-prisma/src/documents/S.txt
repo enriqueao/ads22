@@ -1,0 +1,31 @@
+[
+  {
+    '$match': {
+      'payment_method': 'mastercard'
+    }
+  }, {
+    '$sort': {
+      'amount': -1
+    }
+  }, {
+    '$group': {
+      '_id': null, 
+      'cantidadMasAlta': {
+        '$first': '$amount'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'cantidadMasAlta': {
+        '$trunc': [
+          '$cantidadMasAlta', 2
+        ]
+      }
+    }
+  }
+]
+
+[{
+  "cantidadMasAlta": 9991.63
+}]

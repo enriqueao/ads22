@@ -1,0 +1,27 @@
+[
+  {
+    '$match': {
+      'payment_method': 'visa'
+    }
+  }, {
+    '$group': {
+      '_id': null, 
+      'promedio': {
+        '$avg': '$amount'
+      }
+    }
+  }, {
+    '$project': {
+      '_id': 0, 
+      'promedio': {
+        '$trunc': [
+          '$promedio', 2
+        ]
+      }
+    }
+  }
+]
+
+[{
+  "promedio": 5023.11
+}]

@@ -1,0 +1,14 @@
+db.postal.aggregate(
+  { $set: {
+    { "service.apps.updates":
+      { $function: {
+          body: function(updates) {
+            updates.sort((a, b) => a.date - b.date);
+            return updates;
+          },
+          args: ["$service.apps.updates"],
+          lang: "js"
+      }}
+    }
+  }
+)
