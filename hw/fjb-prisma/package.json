@@ -20,7 +20,9 @@
     "jest": "^28.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node scr/server.ts",
+    "test": "jest",
+    "build:dev": "docker-compose --env-file ./.env.dev config"
   },
   "keywords": [],
   "author": "",

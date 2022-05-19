@@ -1,7 +1,14 @@
 version: '3.1'
 
 services:
-
+  backend:
+    image: app/backend
+    build:
+      dockerfile: ./dockerfile.dev
+      context: .
+    depends_on:
+      - mongodb
+      - cache
   mongodb:
     image: mongo
     container_name: mongodb_dipl

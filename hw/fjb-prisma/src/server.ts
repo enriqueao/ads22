@@ -6,6 +6,8 @@ import { DateTimeResolver } from 'graphql-scalars';
 
 import { context } from './config/context';
 
+import { resolvers } from './resolvers';
+ 
 const app = async () => {
     const schema = await tq.buildSchema({
         resolvers: [],
