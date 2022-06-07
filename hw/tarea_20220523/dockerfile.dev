@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-WORKDIR /app/src
+WORKDIR /
 
 COPY package*.json ./
 
@@ -8,6 +8,4 @@ COPY . .
 
 RUN npm ci
 
-EXPOSE 3000
-
-CMD ["npm", "start"]
+CMD ["npm", "test"]
