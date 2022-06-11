@@ -10,7 +10,7 @@ services:
       - mongodb
       - cache
   mongodb:
-    image: mongo
+    image: mongo:4.0.8
     container_name: mongodb_dipl
     restart: always
     ports: 

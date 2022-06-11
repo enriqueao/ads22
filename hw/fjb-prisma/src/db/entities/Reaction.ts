@@ -8,18 +8,13 @@ export class Reaction   {
     @Field((type) => ID)
     id: string
 
-    @Field()
-    published: boolean
+    @Field((type) => User)
+    user: User
 
     @Field((type) => Date)
     createdAt: Date
 
     @Field((type) => Date)
     updatedAt: Date
-
-    @Field((type) => User)
-    author: User
-
-    @Field((type) => Comment)
-    comment: Comment
 }
+

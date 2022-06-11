@@ -9,20 +9,17 @@ export class Comment   {
     id: string
 
     @Field()
-    comment: string
-
-    @Field()
-    published: boolean
-
-    @Field((type) => Date)
-    createdAt: Date
-
-    @Field((type) => Date)
-    updatedAt: Date
+    content: string
 
     @Field((type) => User)
     author: User
 
     @Field((type) => Post)
     post: Post
+
+    @Field((type) => Date)
+    createdAt: Date
+
+    @Field((type) => Date)
+    updatedAt: Date
 }

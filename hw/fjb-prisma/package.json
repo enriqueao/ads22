@@ -4,24 +4,28 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@prisma/client": "^3.12.0",
-    "apollo-server": "^3.6.7",
-    "class-validator": "^0.13.2",
-    "graphql": "^16.4.0",
-    "graphql-scalars": "^1.17.0",
-    "prisma": "^3.12.0",
-    "reflect-metadata": "^0.1.13",
-    "type-graphql": "^1.1.1"
+    "@prisma/client": "3.14.0",
+    "apollo-server": "3.6.7",
+    "class-validator": "0.13.2",
+    "graphql": "15.3.0",
+    "graphql-scalars": "1.17.0",
+    "reflect-metadata": "0.1.13",
+    "type-graphql": "1.1.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.27",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.3",
-    "jest": "^28.0.3"
+    "@faker-js/faker": "^7.2.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "17.0.27",
+    "jest": "^27.5.1",
+    "jest-mock-extended": "^2.0.4",
+    "prisma": "3.14.0",
+    "ts-jest": "^27.1.5",
+    "ts-node": "10.7.0",
+    "typescript": "4.6.3"
   },
   "scripts": {
-    "start": "ts-node scr/server.ts",
-    "test": "jest",
+    "start": "ts-node src/server.ts",
+    "test": "jest -i",
     "build:dev": "docker-compose --env-file ./.env.dev config"
   },
   "keywords": [],

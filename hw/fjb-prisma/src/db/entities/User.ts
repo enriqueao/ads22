@@ -14,6 +14,10 @@ export class User {
     @Field((type) => String, { nullable: true })
     name?: string | null
 
-    @Field((type) => String)
-    avatar?: string
+    @Field((type) => Date)
+    createdAt: Date
+
+    @Field((type) => Date)
+    updatedAt: Date
 }
+
