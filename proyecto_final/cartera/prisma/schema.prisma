@@ -1,0 +1,36 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Contact {
+  id  String  @id @default(auto()) @map("_id") @db.ObjectId
+  fullname  String
+  birthdate DateTime?
+  job String?
+  appointments Appointment[]
+}
+
+model Appointment {
+  id  String  @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  date DateTime
+  description String?
+  contact Contact @relation(fields: [contactId], references: [id])
+  contactId String
+  status String
+  notes Note[]
+}
+
+model Note {
+  id  String  @id @default(auto()) @map("_id") @db.ObjectId
+  body String?
+  appoinment Appointment @relation(fields: [appointmentId], references: [id])
+  appointmentId String
+
+  // reminder date
+}
